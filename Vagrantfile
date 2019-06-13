@@ -31,7 +31,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "oar-team/debian9"
   #config.vm.box_url = "http://oar-ftp.imag.fr/vagrant/debian8.box"
   config.ssh.insert_key = false
-  config.disksize.size = '20GB'
+  #config.disksize.size = '20GB'
   config.vm.define "server" do |m|
     m.vm.hostname = "server"
     #m.vm.disksize.size = '40GB'
